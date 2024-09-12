@@ -1,0 +1,35 @@
+# Mango module build output directories
+maven-target/
+web/angular/
+
+# IntelliJ settings
+*.iml
+.idea
+#Eclipse Settings
+.classpath
+.settings/
+.project
+.vscode/
+
+/target
+/bin
+*~
+/maven-target
+/config.json
+/node_modules/
+/node/
+/.vscode/
+.settings
+package-lock.json
+${env.MA_HOME}/
+
+.DS_Store
+*.swp
+**/out/
+.idea_modules/
+target/
+.gradle
+build/
+**/build/
+!gradle-wrapper.jar
+.gradletasknamecache
