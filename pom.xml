@@ -20,6 +20,19 @@
         </repository>
     </repositories>
 
+    <distributionManagement>
+        <repository>
+            <id>nexus-releases</id>
+            <name>Nexus Releases Repository</name>
+            <url>https://nexus.sunshow.net:19280/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus-snapshots</id>
+            <name>Nexus Snapshots Repository</name>
+            <url>https://nexus.sunshow.net:19280/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <properties>
         <openaiKotlinVersion>3.8.1</openaiKotlinVersion>
         <kotlinxVersion>1.8.0</kotlinxVersion>

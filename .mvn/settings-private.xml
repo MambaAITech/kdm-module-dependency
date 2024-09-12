@@ -8,6 +8,16 @@
             <username>guest</username>
             <password>YsJR@kJ2a@uEmWb</password>
         </server>
+        <server>
+            <id>nexus-releases</id>
+            <username>admin</username>
+            <password>qwZiZEN!G4Ff4ny</password>
+        </server>
+        <server>
+            <id>nexus-snapshots</id>
+            <username>admin</username>
+            <password>qwZiZEN!G4Ff4ny</password>
+        </server>
     </servers>
     <mirrors>
         <mirror>
@@ -16,4 +26,16 @@
             <mirrorOf>central</mirrorOf>
         </mirror>
     </mirrors>
+    <profiles>
+        <profile>
+            <id>rdc</id>
+            <properties>
+                <MA_HOME>/opt/mango</MA_HOME>
+            </properties>
+        </profile>
+    </profiles>
+
+    <activeProfiles>
+        <activeProfile>rdc</activeProfile>
+    </activeProfiles>
 </settings>
